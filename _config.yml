@@ -7,7 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   in artificial intelligence, with a particular focus on deep learning and large language models. 
   This isn’t just about the algorithms and the tech; it’s about understanding the *why* behind the AI revolution, 
   its potential impact on our world, and the fascinating innovations that lie just around the corner.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pbrajesh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
