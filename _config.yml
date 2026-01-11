@@ -1,0 +1,35 @@
+# Jekyll Config !
+
+title: AI & Beyond
+email: rajesh@deepinter.link
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to AI & Beyond! We’re thrilled to embark on this journey of discovery alongside you – exploring the incredible advancements 
+  in artificial intelligence, with a particular focus on deep learning and large language models. 
+  This isn’t just about the algorithms and the tech; it’s about understanding the *why* behind the AI revolution, 
+  its potential impact on our world, and the fascinating innovations that lie just around the corner.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://pbrajesh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+author:
+  name: Rajesh Babu Rajendran
+  email: "rajesh@deepinter.link"
+
+# Build settings
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+minima:
+  skin: dark
+  show_excerpts: true 
+  date_format: "%Y/%b/%e %I:%M %p %z" # http://shopify.github.io/liquid/filters/date/ # https://strftime.net/
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/pbrajesh/blog"
+    - title: X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/rajesh_the_one"
+
